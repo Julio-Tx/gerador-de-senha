@@ -6,15 +6,28 @@ body {
     margin-top: 40px;
     width: 500px;
     background-color: white;
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 10px;
 }
 
-.cpf-gerado {
+.senha-gerada {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 2px;
     color: rgb(86, 54, 175);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 15px;
+    margin: 5px;
+}
+.gerar-senha {
+    margin-top: 8px;
+    padding: 5px;
 }
